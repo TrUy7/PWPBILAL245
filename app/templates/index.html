@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management Application Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-50 via-pink-50 to-indigo-50 min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="bg-indigo-600 text-white py-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <a href="#" class="text-2xl font-bold tracking-wide">Aplikasi Manajemen Pengguna</a>
+            <div class="space-x-4">
+                <a href="login" class="bg-white text-indigo-600 px-4 py-2 rounded-full shadow-md hover:bg-gray-200">Login</a>
+                <a href="register" class="bg-white text-indigo-600 px-4 py-2 rounded-full shadow-md hover:bg-gray-200">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center py-16 bg-gradient-to-br from-indigo-600 to-purple-600 text-white">
+        <h1 class="text-5xl font-extrabold mb-4">Aplikasi Management User</h1>
+        <p class="text-lg max-w-2xl mx-auto">
+            Ini merupakan implementasi project yang diberikan di kelas 
+        </p>
+    </header>
+
+    <!-- Features Section -->
+    <section class="container mx-auto px-6 py-12">
+        <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Features</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <!-- Feature Card -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition hover:scale-105">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-semibold text-indigo-700">Halaman Registrasi</h3>
+                </div>
+                <p class="text-gray-700">
+                    Form registrasi untuk pengguna baru dengan hashing password untuk keamanan data.
+                </p>
+            </div>
+
+            <!-- Feature Card -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition hover:scale-105">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-semibold text-purple-700">Halaman Login</h3>
+                </div>
+                <p class="text-gray-700">
+                    Form login pengguna dengan sesi untuk menyimpan status login.
+                </p>
+            </div>
+
+            <!-- Feature Card -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition hover:scale-105">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-12 h-12 bg-pink-100 text-pink-600 rounded-full flex items-center justify-center text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-semibold text-pink-700">Halaman Dashboard</h3>
+                </div>
+                <p class="text-gray-700">
+                    Menampilkan daftar pengguna, dengan opsi untuk menambah, mengedit, atau menghapus data.
+                </p>
+            </div>
+
+            <!-- Feature Card -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition hover:scale-105">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-2xl font-bold">4</div>
+                    <h3 class="text-xl font-semibold text-green-700">Fitur CRUD</h3>
+                </div>
+                <p class="text-gray-700">
+                    CRUD penuh untuk menambahkan, mengedit, dan menghapus pengguna dengan validasi.
+                </p>
+            </div>
+
+            <!-- Feature Card -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition hover:scale-105">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center text-2xl font-bold">5</div>
+                    <h3 class="text-xl font-semibold text-red-700">Halaman Logout</h3>
+                </div>
+                <p class="text-gray-700">
+                    Logout pengguna secara aman dan hapus sesi dengan satu klik.
+                </p>
+            </div>
+
+            <!-- Feature Card -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transform transition hover:scale-105">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center text-2xl font-bold">6</div>
+                    <h3 class="text-xl font-semibold text-yellow-700">Model Database</h3>
+                </div>
+                <p class="text-gray-700">
+                    Tabel pengguna dengan kolom <b>ID</b>, <b>username</b>, <b>role</b>, <b>email</b>, dan <b>password_hash</b>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-600 text-white py-6">
+        <div class="text-center">
+            &copy; 2024 User Management App. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

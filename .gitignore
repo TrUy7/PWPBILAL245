@@ -1,0 +1,6 @@
+venv
+.env
+migrations/
+app/__pycache__
+app/config.py
+get-pip.py
